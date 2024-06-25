@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "RNLazyList",
+    "slug": "RNLazyList",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "RNLazyList"
+}
