@@ -17,7 +17,6 @@ const ProductCard = (props) => {
         />
         <Text style={[styles.productName, styles.bold]}>{item.name}</Text>
         <Text style={styles.productName}>40ml</Text>
-        {/* measurement */}
         <View style={styles.priceContainer}>
           <View>
             <Text style={[styles.productName, styles.currentPrice]}>
