@@ -1,9 +1,9 @@
-// Tech4BizText.js
+// JVDText.js
 
-import React, { Component } from 'react';
-import { Text as RNText, StyleSheet } from 'react-native';
+import React, { Component } from "react";
+import { Text as RNText, StyleSheet } from "react-native";
 
-class Tech4BizText extends Component {
+class JVDText extends Component {
   render() {
     return <RNText {...this.props} style={[styles.text, this.props.style]} />;
   }
@@ -11,8 +11,8 @@ class Tech4BizText extends Component {
 
 const styles = StyleSheet.create({
   text: {
-    // Add your Tech4Biz styles here
+    // Add your JVD styles here
   },
 });
 
-export default Tech4BizText;
+export default JVDText;

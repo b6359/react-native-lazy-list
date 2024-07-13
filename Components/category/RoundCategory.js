@@ -1,7 +1,7 @@
 import React from "react";
 import { StyleSheet, TouchableOpacity, Image } from "react-native";
 import { OffWhite } from "../../config/theme";
-import Tech4BizText from "../common/Tech4BizText";
+import JVDText from "../common/JVDText";
 const RoundCategory = (props) => {
   const { label, image, isSelected, onPress } = props;
   return (
@@ -10,7 +10,7 @@ const RoundCategory = (props) => {
       onPress={onPress}
     >
       <Image style={styles.imageContainer} source={{ uri: image }} />
-      <Tech4BizText style={styles.userNameStyle}>{label}</Tech4BizText>
+      <JVDText style={styles.userNameStyle}>{label}</JVDText>
     </TouchableOpacity>
   );
 };

@@ -3,7 +3,7 @@ import { View, StyleSheet, Text, TouchableOpacity, Image } from "react-native";
 import { OffWhite } from "../../config/theme";
 import { FlatList } from "react-native-gesture-handler";
 import { PRODUCT_IMAGE } from "../../config/constants";
-import Tech4BizButton from "../common/Tech4BizButton";
+import JVDButton from "../common/JVDButton";
 
 const ProductCard = (props) => {
   const { products } = props;
@@ -27,7 +27,7 @@ const ProductCard = (props) => {
             </Text>
           </View>
           <View>
-            <Tech4BizButton title="Add" style={styles.addButton} />
+            <JVDButton title="Add" style={styles.addButton} />
           </View>
         </View>
       </TouchableOpacity>

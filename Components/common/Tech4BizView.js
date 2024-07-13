@@ -1,9 +1,9 @@
-// Tech4BizView.js
+// JVDView.js
 
-import React, { Component } from 'react';
-import { View as RNView, StyleSheet } from 'react-native';
+import React, { Component } from "react";
+import { View as RNView, StyleSheet } from "react-native";
 
-class Tech4BizView extends Component {
+class JVDView extends Component {
   render() {
     return <RNView {...this.props} style={[styles.view, this.props.style]} />;
   }
@@ -15,4 +15,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Tech4BizView;
+export default JVDView;

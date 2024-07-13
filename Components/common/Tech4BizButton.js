@@ -1,13 +1,21 @@
-// Tech4BizButton.js
+// JVDButton.js
 
-import React, { Component } from 'react';
-import { Button as RNButton, StyleSheet, Text, TouchableOpacity } from 'react-native';
-import { OffWhite } from '../../config/theme';
+import React, { Component } from "react";
+import {
+  Button as RNButton,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+} from "react-native";
+import { OffWhite } from "../../config/theme";
 
-class Tech4BizButton extends Component {
+class JVDButton extends Component {
   render() {
     return (
-      <TouchableOpacity {...this.props} style={[styles.button, this.props.style]} >
+      <TouchableOpacity
+        {...this.props}
+        style={[styles.button, this.props.style]}
+      >
         <Text>{this.props.title}</Text>
       </TouchableOpacity>
     );
@@ -22,4 +30,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Tech4BizButton;
+export default JVDButton;

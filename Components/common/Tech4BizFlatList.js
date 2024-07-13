@@ -1,18 +1,20 @@
-// Tech4BizFlatList.js
+// JVDFlatList.js
 
-import React, { Component } from 'react';
-import { FlatList as RNFlatList, StyleSheet } from 'react-native';
+import React, { Component } from "react";
+import { FlatList as RNFlatList, StyleSheet } from "react-native";
 
-class Tech4BizFlatList extends Component {
+class JVDFlatList extends Component {
   render() {
-    return <RNFlatList {...this.props} style={[styles.flatList, this.props.style]} />;
+    return (
+      <RNFlatList {...this.props} style={[styles.flatList, this.props.style]} />
+    );
   }
 }
 
 const styles = StyleSheet.create({
   flatList: {
-    // Add your Tech4Biz styles here
+    // Add your JVD styles here
   },
 });
 
-export default Tech4BizFlatList;
+export default JVDFlatList;

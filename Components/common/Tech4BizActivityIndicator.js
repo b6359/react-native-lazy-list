@@ -1,18 +1,26 @@
-// Tech4BizActivityIndicator.js
+// JVDActivityIndicator.js
 
-import React, { Component } from 'react';
-import { ActivityIndicator as RNActivityIndicator, StyleSheet } from 'react-native';
+import React, { Component } from "react";
+import {
+  ActivityIndicator as RNActivityIndicator,
+  StyleSheet,
+} from "react-native";
 
-class Tech4BizActivityIndicator extends Component {
+class JVDActivityIndicator extends Component {
   render() {
-    return <RNActivityIndicator {...this.props} style={[styles.activityIndicator, this.props.style]} />;
+    return (
+      <RNActivityIndicator
+        {...this.props}
+        style={[styles.activityIndicator, this.props.style]}
+      />
+    );
   }
 }
 
 const styles = StyleSheet.create({
   activityIndicator: {
-    // Add your Tech4Biz styles here
+    // Add your JVD styles here
   },
 });
 
-export default Tech4BizActivityIndicator;
+export default JVDActivityIndicator;

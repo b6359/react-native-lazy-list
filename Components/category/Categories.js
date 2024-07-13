@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { StyleSheet, ScrollView } from "react-native";
-import Tech4BizView from "../common/Tech4BizView";
+import JVDView from "../common/JVDView";
 import RoundCategory from "./RoundCategory";
 import { CAT_IMAGE, GET_CATEGORIES } from "../../config/constants";
 import DataFetcher from "../../helper/DataFetcher";
@@ -21,7 +21,7 @@ const Categories = ({ chooseCategory }) => {
   }, []);
 
   return (
-    <Tech4BizView style={styles.container}>
+    <JVDView style={styles.container}>
       <ScrollView
         style={styles.typeList}
         horizontal={true}
@@ -41,7 +41,7 @@ const Categories = ({ chooseCategory }) => {
           );
         })}
       </ScrollView>
-    </Tech4BizView>
+    </JVDView>
   );
 };
 

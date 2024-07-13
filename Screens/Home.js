@@ -4,7 +4,7 @@ import Header from "../Components/Header";
 import { colorBlack, colorWhite } from "../config/theme";
 import Search from "../Components/Search";
 import CarouselComponent from "../Components/CarouselComponent";
-import Tech4BizView from "../Components/common/Tech4BizView";
+import JVDView from "../Components/common/JVDView";
 import Categories from "../Components/category/Categories";
 import Products from "../Components/products/Products";
 
@@ -22,7 +22,7 @@ const Home = () => {
   };
 
   return (
-    <Tech4BizView style={{ backgroundColor: colorWhite, height: "100%" }}>
+    <JVDView style={{ backgroundColor: colorWhite, height: "100%" }}>
       <Header />
       <Search />
       <ScrollView>
@@ -30,7 +30,7 @@ const Home = () => {
         <Categories chooseCategory={chooseCategory} />
         <Products selectedCategory={selectedCategory} />
       </ScrollView>
-    </Tech4BizView>
+    </JVDView>
   );
 };
 

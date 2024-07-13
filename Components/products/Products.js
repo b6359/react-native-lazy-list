@@ -1,6 +1,6 @@
 import React, { lazy, useEffect, useState } from "react";
 import { StyleSheet } from "react-native";
-import Tech4BizView from "../common/Tech4BizView";
+import JVDView from "../common/JVDView";
 import ProductCard from "../products/ProductCard";
 import { GET_PRODUCTS } from "../../config/constants";
 import DataFetcher from "../../helper/DataFetcher";
@@ -27,9 +27,9 @@ const Products = ({ selectedCategory }) => {
     );
   }, [selectedCategory]);
   return (
-    <Tech4BizView style={styles.container}>
+    <JVDView style={styles.container}>
       <ProductCard products={productList} />
-    </Tech4BizView>
+    </JVDView>
   );
 };
 
