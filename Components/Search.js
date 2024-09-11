@@ -8,11 +8,7 @@ const Search = ({ searchChange }) => {
   return (
     <JVDView style={styles.container}>
       <Icon name="search" size={25} style={styles.iconSearch} />
-      <JVDTextInput
-        placeholder={`Search...`}
-        style={styles.inputSectionView}
-        onChangeText={searchChange}
-      />
+      <JVDTextInput placeholder={`Search...`} style={styles.inputSectionView} onChangeText={searchChange} />
     </JVDView>
   );
 };

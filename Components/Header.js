@@ -7,12 +7,7 @@ const Header = () => {
   return (
     <JVDView style={styles.container}>
       <JVDView style={styles.content}>
-        <Icon
-          name="grid-outline"
-          size={25}
-          color={colorBlack}
-          style={styles.icon}
-        />
+        <Icon name="grid-outline" size={25} color={colorBlack} style={styles.icon} />
         <Icon
           name="notifications-outline"
           size={25}
